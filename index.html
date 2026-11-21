@@ -16,12 +16,16 @@
     main { max-width: 38rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
     h1 { font-size: 1.9rem; margin: 0 0 0.25rem; }
     h2 { font-size: 1.3rem; margin: 2.5rem 0 0.75rem; }
+    h3 { font-size: 1.1rem; margin: 1.75rem 0 0.5rem; }
     p, li { font-size: 1.02rem; }
     p { margin: 0 0 0.9rem; }
     ul { margin: 0 0 0.9rem; padding-left: 1.2rem; }
     .muted { color: #66758d; }
     a { color: #4f5bd5; }
     footer { margin-top: 3rem; font-size: 0.9rem; color: #66758d; }
+    .shot { margin: 1.5rem auto 0.5rem; text-align: center; }
+    .shot img { width: 100%; max-width: 16rem; height: auto; border-radius: 2rem; box-shadow: 0 8px 30px rgba(30, 42, 68, 0.18); }
+    .shot figcaption { margin-top: 0.75rem; font-size: 0.92rem; color: #66758d; }
   </style>
 </head>
 <body>
@@ -38,14 +42,44 @@
   <p>We do not knowingly collect personal information from children, and the app has no way to send us any. If a future version changes what the app stores or who it talks to, this page will say so before that version ships.</p>
 
   <h2 id="support">Support</h2>
+  <figure class="shot">
+    <img src="/images/home.jpg" width="660" height="1434" alt="LilBookworm home screen showing a reader's series, including Dog Man, Harry Potter, Magic Tree House and Diary of a Wimpy Kid, each with a progress bar.">
+    <figcaption>The Home tab: pick a series and see how many books are read.</figcaption>
+  </figure>
   <p>Email <a href="mailto:support@lilbookworm.app">support@lilbookworm.app</a>. For a problem, include your iPhone model and iOS version.</p>
   <ul>
     <li><strong>Getting into the grown-ups area.</strong> On the Me tab, tap Grown-ups area. Enter the PIN, or if none is set, answer the maths question in digits.</li>
     <li><strong>Forgot the PIN.</strong> Tap Forgot PIN? and answer the maths question, then set a new PIN inside.</li>
     <li><strong>Face ID doesn't appear.</strong> It is a shortcut on top of the PIN. Set a PIN, then turn on the Face ID shortcut in the grown-ups area.</li>
-    <li><strong>Removing a reader.</strong> In the grown-ups area, under Readers on this device, tap Remove. This erases that reader's marks for good.</li>
     <li><strong>Moving to a new phone.</strong> Progress is stored only on the device. An iPhone backup restores it; there is no cloud sync.</li>
   </ul>
+
+  <h3>Remove a reader</h3>
+  <ol>
+    <li>On the Me tab, tap <strong>Grown-ups area</strong> and unlock it.</li>
+    <li>Under <strong>Readers on this device</strong>, tap <strong>Remove</strong> next to the reader.</li>
+    <li>Confirm. This erases that reader's name, reading marks and shelf choices for good. Books and series you added stay for everyone. If it was the only reader, the app starts over at the welcome screen.</li>
+  </ol>
+
+  <h3>Add a series yourself</h3>
+  <p>Grown-ups can add books and series that aren't built in.</p>
+  <ol>
+    <li>On the Me tab, tap <strong>Open book finder</strong> and unlock it.</li>
+    <li>Search by title, author or topic.</li>
+    <li>If a result belongs to a known series, tap <strong>Add whole series</strong>, check the list, then tap <strong>Add all … books</strong>.</li>
+    <li>To build a series by hand, tap <strong>Add to series…</strong> under a book. Pick one of your series or type a name and tap <strong>Create &amp; add</strong>. You can set the book's number in the series, or leave it empty to put it last.</li>
+    <li>To add a single book without a series, tap <strong>Add</strong>. It goes to My Shelf.</li>
+  </ol>
+  <p>Added series show on every reader's Home, next to the built-in ones.</p>
+
+  <h3>Remove a series or a book you added</h3>
+  <ol>
+    <li>Open the book finder again and scroll to <strong>Added series</strong>.</li>
+    <li>To remove a whole series, tap the <strong>✕</strong> on its row.</li>
+    <li>To remove one book from a series, tap the series to show its books, then tap the <strong>✕</strong> next to that book.</li>
+    <li>Books you added on their own are under <strong>On my shelf</strong>, each with its own <strong>✕</strong>.</li>
+  </ol>
+  <p>There's no confirmation step, so tap carefully. Built-in series can't be deleted, but you can hide them: in the Grown-ups area, switch them off under <strong>Series kids can see</strong>. Their reading marks are kept if you switch them back on.</p>
 
   <footer>© 2026 Priom Consultations Inc. LilBookworm is not affiliated with any publisher or book series shown in the app.</footer>
 </main>
